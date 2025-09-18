@@ -1,0 +1,20 @@
+body{
+    text-align:start ;
+    background-color: violet;
+
+}
+h1{
+    color:maroon;
+}
+a{color:mediumseagreen;
+text-decoration:underline ;
+}
+a:hover{color:darkolivegreen;}
+
+ul>li{ font-weight: bold;}
+
+h1+p{ color:lawngreen;}
+
+ul li:nth-child(3){color:midnightblue;}
+ul li::before{ content: "🌟";}
+p::first-letter{font-size:700% ;}
